@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ftwoe_dora/static/css/main.b2bd936f.css",
-    "main.js": "/ftwoe_dora/static/js/main.09923aac.js",
+    "main.css": "/ftwoe_dora/static/css/main.0ce36f77.css",
+    "main.js": "/ftwoe_dora/static/js/main.35e1fdd5.js",
     "static/media/GenJyuuGothic-P-Bold.ttf": "/ftwoe_dora/static/media/GenJyuuGothic-P-Bold.647639c06a35c659316a.ttf",
     "static/media/GenJyuuGothic-P-Medium.ttf": "/ftwoe_dora/static/media/GenJyuuGothic-P-Medium.333d69660f9cea0fa415.ttf",
     "static/media/question_1_g.gif": "/ftwoe_dora/static/media/question_1_g.9316b1a323faa8a1a915.gif",
@@ -19,6 +19,7 @@
     "static/media/character_f2e.gif": "/ftwoe_dora/static/media/character_f2e.88c91ceb24cd0a7bf431.gif",
     "static/media/road-g.gif": "/ftwoe_dora/static/media/road-g.6abdb94c4ecbbb63990f.gif",
     "static/media/logo_text.png": "/ftwoe_dora/static/media/logo_text.ba3b0e157d2a1c57926f.png",
+    "static/media/loading_2x.gif": "/ftwoe_dora/static/media/loading_2x.85e2918203878de08091.gif",
     "static/media/start.png": "/ftwoe_dora/static/media/start.b6699334c8ae42667199.png",
     "static/media/bg_decorate_07.png": "/ftwoe_dora/static/media/bg_decorate_07.7cbaf581beff3f4c7ee3.png",
     "static/media/bg_talking_ct.png": "/ftwoe_dora/static/media/bg_talking_ct.a17a32872f90f3efe30c.png",
@@ -42,11 +43,11 @@
     "static/media/date_line.png": "/ftwoe_dora/static/media/date_line.faf7ef10c3c61c8c00f5.png",
     "static/media/map.svg": "/ftwoe_dora/static/media/map.6ac6956bc1af26356f56.svg",
     "index.html": "/ftwoe_dora/index.html",
-    "main.b2bd936f.css.map": "/ftwoe_dora/static/css/main.b2bd936f.css.map",
-    "main.09923aac.js.map": "/ftwoe_dora/static/js/main.09923aac.js.map"
+    "main.0ce36f77.css.map": "/ftwoe_dora/static/css/main.0ce36f77.css.map",
+    "main.35e1fdd5.js.map": "/ftwoe_dora/static/js/main.35e1fdd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2bd936f.css",
-    "static/js/main.09923aac.js"
+    "static/css/main.0ce36f77.css",
+    "static/js/main.35e1fdd5.js"
   ]
 }
