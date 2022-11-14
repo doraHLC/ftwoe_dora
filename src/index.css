@@ -7,8 +7,8 @@
 } */
 
 html {
-    overflow: scroll;
-    overflow-x: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 :root {
@@ -189,6 +189,14 @@ code {
 
   .bg_decorateS {
     @apply w-[450px] h-[333.5px] bg-[url('./image/bg/bg_decorate_07.png')] bg-no-repeat bg-contain;
+  }
+
+  .bg_btnJoin {
+    @apply w-[103px] h-[60px] bg-[url('./image/btn/btn_join.png')] bg-no-repeat bg-contain;
+  }
+
+  .bg_btnUser {
+    @apply bg-[url('./image/btn/btn_user.png')] bg-no-repeat bg-contain w-10 h-10 cursor-pointer lg:w-16 lg:h-16 xl:w-20 xl:h-20 lg:fixed lg:top-[60px] lg:right-[40px] z-20;
   }
 
   /* .bg_character_dog {

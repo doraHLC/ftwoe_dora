@@ -20,11 +20,12 @@ export const HeaderPhone = () => {
         src={logoText}
         alt="logoText"
       />
-      <img
+      <div className='bg_btnUser hover:bg-[url("./image/btn/btn_user_h.png")]'/>
+      {/* <img
         className='w-10 h-10 cursor-pointer lg:w-16 lg:h-16 xl:w-20 xl:h-20 lg:fixed lg:top-[60px] lg:right-[40px] z-20'
         src={btnUser}
         alt="btnUser"
-      />
+      /> */}
     </header>
   )
 }

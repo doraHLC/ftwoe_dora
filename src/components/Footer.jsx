@@ -5,7 +5,7 @@ import btnJoin from '../image/btn/btn_join.png'
 export const FooterMap = () => {
   return (
     <div className='hidden md:block md:pl-[20px] md:fixed md:bottom-5 md:left-[20px] z-20'>
-      <div className='bg_map relative mt-4 hidden lg:block'>
+      <div className='bg_map relative mt-4 hidden lg:block redDo'>
         <img
           className='absolute top-[41px] left-[-1px] redDoGsap'
           src={mapNow}
@@ -27,11 +27,12 @@ export const FooterJoin = () => {
           src={btnJoinHand}
           alt='btnJoinHand'
         />
-        <img
+        {/* <img
           className='md:w-[40px] lg:w-[103px]'
           src={btnJoin}
           alt='btnJoin'
-        />
+        /> */}
+        <div className='bg_btnJoin md:w-[40px] md:h-[23.3px] lg:w-[103px] lg:h-[60px] hover:bg-[url("./image/btn/btn_join_h.png")]' />
       </div>
     </div>
   )

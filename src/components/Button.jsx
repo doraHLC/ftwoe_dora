@@ -39,11 +39,12 @@ export const BtnJoin = (props) => {
         src={btnJoinHand}
         alt='btnJoinHand'
       />
-      <img
+      <div className='bg_btnJoin hover:bg-[url("./image/btn/btn_join_h.png")]' />
+      {/* <img
         className='w-[103px]'
         src={btnJoin}
         alt='btnJoin'
-      />
+      /> */}
       <h4 className='text-primaryDefault mt-4'>{props.children}</h4>
     </div>
   )
@@ -57,11 +58,12 @@ export const BtnJoinHighlight = (props) => {
         src={btnJoinHand}
         alt='btnJoinHand'
       />
-      <img
+      <div className='bg_btnJoin hover:bg-[url("./image/btn/btn_join_h.png")]'/>
+      {/* <img
         className='w-[103px]'
         src={btnJoin}
         alt='btnJoin'
-      />
+      /> */}
       <h2 className='text-HighlightDefault mt-4'>{props.children}</h2>
     </div>
   )

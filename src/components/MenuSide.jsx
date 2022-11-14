@@ -44,7 +44,7 @@ export const MenuSide = () => {
                 </ul>
 
                 <label
-                    className='menuSide_label'
+                  className='menuSide_label'
                     htmlFor="sideMenu-switch">
                 </label>
             </div>

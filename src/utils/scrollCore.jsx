@@ -552,7 +552,7 @@ export default function ScrollCore () {
       {
         autoAlpha: 1,
         opacity: 1
-      })
+      }, '<')
     .to('.redDo',
       {
         opacity: 0
