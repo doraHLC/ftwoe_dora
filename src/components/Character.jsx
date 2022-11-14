@@ -8,11 +8,11 @@ export default function Character () {
         <div className='relative w-screen'>
             <div className='bg_road absolute bottom-0' />
 
-            <div className='bg_decorateH absolute left-0 bottom-0 scale-x-[-1]' />
+            <div className='bg_decorateH absolute left-0 bottom-0 scale-x-[-1] opacity-0' />
             <div className='bg_decorateH absolute right-0 bottom-0 opacity-0' />
 
-          <div className='bg_decorateThree absolute left-0 top-0 opacity-0' />
-          <div className='bg_decorateS absolute right-0 top-0 opacity-0' />
+            <div className='bg_decorateThree absolute left-0 top-0 opacity-0' />
+            <div className='bg_decorateS absolute right-0 top-0 opacity-0' />
 
             {/* <div className='bg_character_dog' />
             <div className='bg_character_cat' />

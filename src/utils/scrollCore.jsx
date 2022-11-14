@@ -18,12 +18,22 @@ export default function ScrollCore () {
     }
   })
   homePage
+    .fromTo('.bg_decorateH',
+      {
+        opacity: 1,
+        autoAlpha: 1
+      },
+      {
+        opacity: 0,
+        autoAlpha: 0,
+        duration: 2
+      })
     .to('.bannerGsap',
       {
         opacity: 0,
         autoAlpha: 0,
         transformOrigin: 'center center'
-      })
+      }, '<')
     .to('.readyFrameGsap',
       {
         opacity: 0,
@@ -95,11 +105,13 @@ export default function ScrollCore () {
       })
     .fromTo('.bg_decorateH',
       {
+        opacity: 0,
         autoAlpha: 0
       },
       {
         y: '-50px',
         autoAlpha: 1,
+        opacity: 1,
         duration: 2
       })
     .fromTo('.titleTextGsap-question',
@@ -194,9 +206,11 @@ export default function ScrollCore () {
       }, '<')
     .fromTo('.bg_decorateH',
       {
+        opacity: 1,
         autoAlpha: 1
       },
       {
+        opacity: 0,
         autoAlpha: 0,
         duration: 2
       }, '<')

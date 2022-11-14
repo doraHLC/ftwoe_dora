@@ -6,6 +6,11 @@
   display: none;
 } */
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
 :root {
   cursor: url('./image/cursor/cursor.png') 10 5, move !important;
 }
