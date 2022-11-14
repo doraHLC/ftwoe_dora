@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ftwoe_dora/static/css/main.0ce36f77.css",
-    "main.js": "/ftwoe_dora/static/js/main.35e1fdd5.js",
+    "main.css": "/ftwoe_dora/static/css/main.36791e84.css",
+    "main.js": "/ftwoe_dora/static/js/main.7dd8d8c5.js",
     "static/media/GenJyuuGothic-P-Bold.ttf": "/ftwoe_dora/static/media/GenJyuuGothic-P-Bold.647639c06a35c659316a.ttf",
     "static/media/GenJyuuGothic-P-Medium.ttf": "/ftwoe_dora/static/media/GenJyuuGothic-P-Medium.333d69660f9cea0fa415.ttf",
     "static/media/question_1_g.gif": "/ftwoe_dora/static/media/question_1_g.9316b1a323faa8a1a915.gif",
@@ -43,11 +43,11 @@
     "static/media/date_line.png": "/ftwoe_dora/static/media/date_line.faf7ef10c3c61c8c00f5.png",
     "static/media/map.svg": "/ftwoe_dora/static/media/map.6ac6956bc1af26356f56.svg",
     "index.html": "/ftwoe_dora/index.html",
-    "main.0ce36f77.css.map": "/ftwoe_dora/static/css/main.0ce36f77.css.map",
-    "main.35e1fdd5.js.map": "/ftwoe_dora/static/js/main.35e1fdd5.js.map"
+    "main.36791e84.css.map": "/ftwoe_dora/static/css/main.36791e84.css.map",
+    "main.7dd8d8c5.js.map": "/ftwoe_dora/static/js/main.7dd8d8c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ce36f77.css",
-    "static/js/main.35e1fdd5.js"
+    "static/css/main.36791e84.css",
+    "static/js/main.7dd8d8c5.js"
   ]
 }
