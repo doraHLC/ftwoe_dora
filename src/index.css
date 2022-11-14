@@ -6,6 +6,10 @@
   display: none;
 } */
 
+:root {
+  cursor: url('./image/cursor/cursor.png') 10 5, move !important;
+}
+
 @font-face {
   font-family: 'GenJyuuGothic-P-Bold';
   src: url('./fonts/GenJyuuGothic-P-Bold.ttf') format('woff'),
@@ -281,5 +285,9 @@ code {
 
   .sponsor_item {
     @apply flex flex-col items-center gap-4;
+  }
+
+  .modalCard-bg {
+    @apply fixed inset-0 bg-secondaryDefault z-50;
   }
 }

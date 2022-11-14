@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect } from 'react'
+import React, { useState, useLayoutEffect } from 'react'
 import { MenuSide } from './components/MenuSide'
 import { HeaderPhone } from './components/Header'
 import HomePage from './pages/HomePage'
@@ -8,8 +8,10 @@ import Character from './components/Character'
 import finishLineL from './image/main/finishLine_l.png'
 import finishLineR from './image/main/finishLine_r.png'
 import ScrollCore from './utils/scrollCore'
+import LoadingModal from './components/LoadingModal'
 
 function App () {
+  const [isLoading, setIsLoading] = useState(false)
   useLayoutEffect(() => {
     ScrollCore()
   }, [])
